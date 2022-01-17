@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>johnzakkam's personal website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./profile_picture.jpg" type="image/jpg">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="profile">
+        <div id="profile_img" style="background: url('./profile_picture.jpg') center;"></div>
+        <div id="username"><span style="display:block;">John Zakkam </span><a href="https://github.com/imjohnzakkam">@imjohnzakkam</a></div>
+        <div id="userbio" style="display: block;">
+            <p style="height: 5rem;">John is a <span class="container typed-text"></span><span class="cursor">&nbsp;</span></p>
+        </div>
+        <div id="about">
+            <span style="display:block;"><i class="fas fa-phone"></i> &nbsp; <a href="tel:+91-9381545322" target="_blank">+91-9381545322</a></span>
+            <span style="display:block;"><i class="fas fa-at"></i> &nbsp; <a href="mailto:ced18i059@iiitdm.ac.in" target="_blank">ced18i059@iiitdm.ac.in</a></span>
+            <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://johnzakkam.codes">https://johnzakkam.codes</a></span>
+            <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Chennai, India</span>
+            <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+            <div class="socials">
+                <span style="display:block;"><a href="https://www.linkedin.com/in/johnzakkam/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:block;"><a href="https://www.instagram.com/johnzakkam" target="_blank" class="socials"><i class="fab fa-instagram"></i></a></span>
+                <span style="display:block;"><a href="https://www.twitter.com/johnzakkam" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:block;"><a href="https://www.medium.com/@johnzakkam2592/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+            </div>
+        </div>
+    </div>
+    <div id="display">
+        <div id="work">
+            <h1>Work.</h1>
+            <div class="projects" id="work_section">
+                <a href="https://github.com/imjohnzakkam/cc-analyzer" target="_blank">
+                    <section>
+                        <div class="section_title">cc-analyzer</div>
+                        <div class="about_section">
+                            <span style="display:block;">developed a highly scalable full stack react web app where codechef users can check their stats and compare their progress with other programmers</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fab fa-node-js"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 11</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/imjohnzakkam/Competitive-Programming" target="_blank">
+                    <section>
+                        <div class="section_title">Competitive-Programming</div>
+                        <div class="about_section">
+                            <span style="display:block;">This is a repo for people to get to know about CP</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 6</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/imjohnzakkam/Fundus-Image-Denoising" target="_blank">
+                    <section>
+                        <div class="section_title">Fundus-Image-Denoising</div>
+                        <div class="about_section">
+                            <span style="display:block;">Made a Deep Learning Model to de-noise fundus images using U-Net architecture for Image Segmentation</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fab fa-python"></i>&nbsp; Python</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/imjohnzakkam/websgen" target="_blank">
+                    <section>
+                        <div class="section_title">websgen</div>
+                        <div class="about_section">
+                            <span style="display:block;">made a full stack web app with python-flask to render a website with the given details by the user. It also uses a MySQL Database.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fab fa-html5"></i>&nbsp; HTML, Flask</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/Spourgeon2000/Covin-Info" target="_blank">
+                    <section>
+                        <div class="section_title">Covin-Info</div>
+                        <div class="about_section">
+                            <span style="display:block;">created a react app which displays the data for a given </span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fab fa-node-js"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/s-i-d-d-i-s/Sparky-Bot" target="_blank">
+                    <section>
+                        <div class="section_title">Sparky Discord Bot</div>
+                        <div class="about_section">
+                            <span style="display:block;">made a discord bot which has a lot of features for codechef users to check their progress and stats. It uses a PostgreSQL Database and it's hosted on heroku</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fab fa-discord"></i>&nbsp; Python</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+            </div>
+        </div>
+        <!-- Include Eductation -->
+        <div id="forks">
+            <h1>Featured.</h1>
+            <div class="projects" id="forks_section">
+                <a href="https://www.codechef.com/certificates/public/9bd9b74" target="_blank">
+                    <section>
+                        <div class="section_title">CodeChef Campus Chapter</div>
+                        <div class="about_section">
+                            <span style="display:block;">Responsible for starting the Codechef Chapter at IIIT and cultivating the competitive programming culture on campus</span>
+                        </div>
+                        <div class="bottom_section">
+                            <!-- Insert CC logo -->
+                            <span style="display:inline-block;"><i class="fas fa-laptop-code"></i>&nbsp; 22 Contests and Workshops Organised</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="" target="_blank">
+                    <section>
+                        <div class="section_title">Joint-Core CS Club</div>
+                        <div class="about_section">
+                            <span style="display:block;">
+                                Part of one of the technical clubs of the campus.
+                                Organized weekly sessions to spread the awareness of Competitive Programming in Computer Science.
+                            </span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:block;"><i class="fas fa-laptop-code"></i>&nbsp; hosted multiple problem solving sessions</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="" target="_blank">
+                    <section>
+                        <div class="section_title">Partipation in Coding Competitons</div>
+                        <div class="about_section">
+                            <span style="display:block;">Actively took part in world renowned coding competitions like ACM ICPC, Google KickStart, Facebook Hacker Cup, CodeChef and Codeforces.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span><i class="fas fa-award"></i>&nbsp; got a worldwide best rank of 1882</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="" target="_blank">
+                    <section>
+                        <div class="section_title">Deep Learning on Coursera</div>
+                        <div class="about_section">
+                            <span style="display:block;">
+                                Completed a certified 5-course specialization on Deep Learning which helped me understand the capabilities, challenges, and consequences of deep learning and prepared me to participate in the development of leading-edge AI technology. 
+                            </span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fab fa-python"></i>&nbsp; Python using Machine Learning Libraries</span>
+                        </div>
+                    </section>
+                </a>
+            </div>
+        </div>
+        <div id="work">
+            <h1>Publications.</h1>
+            <div class="projects" id="forks_section">
+                <a href="" target="_blank">
+                    <section>
+                        <div class="section_title">Research Paper #01</div>
+                        <div class="about_section">
+                            <span style="display:block;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dignissimos assumenda. Ducimus voluptatum velit consequatur et in obcaecati. Iure temporibus inventore, et obcaecati error similique nemo ex facilis asperiores non.
+                            </span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-bookmark"></i>&nbsp; Journal</span>
+                        </div>
+                    </section>
+                </a>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+        </div> -->
+        <div id="footer">
+            <a href="https://github.com/imjohnzakkam" target="_blank">made on earth by johnzakkam</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        setTimeout(function() {
+            document.getElementById("loading").classList.add("animated");
+            document.getElementById("loading").classList.add("fadeOut");
+            setTimeout(function() {
+                document.getElementById("loading").classList.remove("animated");
+                document.getElementById("loading").classList.remove("fadeOut");
+                document.getElementById("loading").style.display = "none";
+            }, 800);
+        }, 1500);
+        $.getJSON("blog.json", function(blog) {
+            blog = blog || [];
+            if (blog.length == 0) {
+                return (document.getElementById("blog_section").style.display =
+                    "none");
+            }
+            for (var i = 0; i < blog.length; i++) {
+                $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+            }
+        }).fail(function() {
+            return (document.getElementById("blog_section").style.display = "none");
+        });
+    </script>
+
+    <script>
+        const magicProjectsGrid = new MagicGrid({
+            container: "#work_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
+
+        const magicForksGrid = new MagicGrid({
+            container: "#forks_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
+
+        $("document").ready(() => {
+            magicProjectsGrid.listen();
+            magicForksGrid.listen();
+        });
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["deep learning researcher", "linux geek", "problem solver and a competitive programmer", "pre-final year undergrad in IIITDM Chennai"];
+        const typingDelay = 50;
+        const erasingDelay = 50;
+        const newTextDelay = 500; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay + 1100);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+            if (textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    </script>
+
+
+</body>
+
+</html>
